@@ -32,6 +32,7 @@ from langchain.prompts import PromptTemplate
 import joblib
 import nest_asyncio  # noqa: E402
 nest_asyncio.apply()
+import nltk
 
 load_dotenv()
 load_dotenv(find_dotenv())
@@ -99,7 +100,7 @@ css = """
     }
 </style>
 """
-
+nltk.download('punkt')
 st.write(css, unsafe_allow_html=True)
 #st.sidebar.image('lt.png', width=250)
 #------------- 
