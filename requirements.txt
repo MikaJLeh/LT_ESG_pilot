@@ -1,6 +1,7 @@
 nltk
 joblib
 chromadb >= 0.3.29
+sqlite3 >= 3.35.0
 llama-index == 0.10.40
 llama-parse
 langchain_community    
