@@ -1,4 +1,3 @@
-shutil
 joblib
 chromadb == 0.3.29
 llama-index
