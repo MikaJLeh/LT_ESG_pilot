@@ -1,4 +1,3 @@
-shutil
 nltk
 joblib
 chromadb == 0.4.24  
