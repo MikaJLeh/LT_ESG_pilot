@@ -6,8 +6,6 @@ llama-parse
 langchain_community    
 langchain
 fpdf 
-pandas      
-numpy
 fastapi
 datetime
 requests
