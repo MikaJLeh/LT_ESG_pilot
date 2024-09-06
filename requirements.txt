@@ -1,6 +1,6 @@
 shutil
 joblib
-chromadb
+chromadb == 0.3.29
 llama-index
 llama-parse
 langchain_community    
