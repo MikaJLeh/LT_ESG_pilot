@@ -30,24 +30,11 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
 import joblib
-
-
 import nest_asyncio  # noqa: E402
 nest_asyncio.apply()
 
 load_dotenv()
 load_dotenv(find_dotenv())
-
-import nltk
-
-# Define a writable directory for NLTK data
-nltk_data_dir = "./nltk_data"
-
-# Download required NLTK data to the custom directory
-nltk.download('punkt', download_dir=nltk_data_dir)
-
-# Set the custom directory for NLTK data
-nltk.data.path.append(nltk_data_dir)
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 SERPAPI_API_KEY = os.environ["SERPAPI_API_KEY"]
